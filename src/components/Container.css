@@ -20,7 +20,7 @@
     visibility: hidden;
   }
   .container .card:hover .small-on-hover{
-    font-size: x-small;
+    font-size: small;
   }
   
   .container .card:hover .card_title{
