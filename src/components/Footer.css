@@ -1,0 +1,11 @@
+footer{
+    background: black;
+    margin: auto;
+    color: white;
+    margin:2rem;
+    text-align: center;
+}
+footer p{
+    margin: auto auto;
+    font-family:'Roboto Mono', monospace;
+}

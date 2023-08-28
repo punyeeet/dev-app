@@ -1,0 +1,38 @@
+.container{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 15px;
+    font-family: 'Roboto Mono', monospace;
+    overflow: hidden;
+}
+
+.container .card:hover {
+    transform: scale(1.1, 1.1);
+  }
+
+  .container .card:hover .card_description{
+    overflow: visible;
+
+  }
+  .container .card:hover .hide-on-hover{
+    visibility: hidden;
+  }
+  .container .card:hover .small-on-hover{
+    font-size: x-small;
+  }
+  
+  .container .card:hover .card_title{
+    color: black;
+    transition: 800ms;
+  }
+  /* .container:hover > .card:not(:hover){
+    filter: blur(5px);
+  }
+
+  .container .card:hover{
+    filter: blur(0);
+  } */
+  
+
