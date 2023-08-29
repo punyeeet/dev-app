@@ -1,8 +1,17 @@
-# React + Vite
+# Con_Hub 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A website showing the latest conferences across the globe.
 
-Currently, two official plugins are available:
+## Description
+- Fetches data on tech conferences happening across the globe.
+- Displays them using cards in an organized manner.
+- Has a filter option to filter between upcoming and past events.
+- Responsiveness added for up to medium-width screens.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech-Stack
+- Mainly uses React ( made using vite )
+- Vanilla CSS
+- React's Material UI library for Skeleton and Toggle Buttons
+
+## Deployment 
+- Deployed on : [ConHub](https://conhub.netlify.app/)
