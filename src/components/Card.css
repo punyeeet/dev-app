@@ -22,6 +22,11 @@
     box-shadow: hsl(268, 13%, 45%);
     color:white;
 }
+@media (max-width:1000px) {
+    .card{height: 70vh; width: 80vw; gap:1.5rem;}
+    .card .card_title{font-size: small;}
+    .card:hover .small-on-hover{font-size: xx-small;}
+}
 .card_banner{
     
     height: 150px;
