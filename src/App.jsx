@@ -5,13 +5,13 @@ import Title from './components/Title'
 import Footer from './components/Footer'
 
 function App() {
-  
+
 
   return (
     <>
-    <Title/>
-    <Container/>
-    <Footer/>
+      <Title />
+      <Container />
+      <Footer />
 
     </>
   )
