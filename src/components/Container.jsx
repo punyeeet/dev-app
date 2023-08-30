@@ -7,6 +7,7 @@ import ToggleButton from '@mui/material/ToggleButton';
 import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
 import jsDateFormat from '../utils/jsDateFormat';
 import { Skeleton } from '@mui/material';
+import {BrowserView} from 'react-device-detect'
 
 
 const Container = () => {
@@ -58,6 +59,8 @@ const Container = () => {
 
     return (
         <>
+            <BrowserView>
+
             <ToggleButtonGroup
                 color="standard"
                 value={alignment}
@@ -71,6 +74,7 @@ const Container = () => {
                 <ToggleButton value="upcoming" >upcoming</ToggleButton>
                 <ToggleButton value="past" >past</ToggleButton>
             </ToggleButtonGroup>
+            </BrowserView>
 
             
             {
